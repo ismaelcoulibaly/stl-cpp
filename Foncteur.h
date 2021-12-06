@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - Foncteur.h
 * Date: 9 mars 2018
-* Auteur: Isma34l Coulibaly et Simon Zhang
+* Auteur: Isma34l Coulibaly
 *******************************************/
 
 #pragma once

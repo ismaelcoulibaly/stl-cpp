@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - GestionnaireUsagers.cpp
 * Date: 9 mars 2018
-* Auteur: Ismaël Coulibaly et Simon ZHang
+* Auteur: Ismaël Coulibaly
 *******************************************/
 
 #include "GestionnaireUsagers.h"

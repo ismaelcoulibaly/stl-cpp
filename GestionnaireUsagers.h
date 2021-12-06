@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - GestionnaireUsagers.h
 * Date: 9 mars 2018
-* Auteur: Isnaël Coulibaly et Simon Zhang
+* Auteur: Isnaël Coulibaly
 *******************************************/
 
 #pragma once

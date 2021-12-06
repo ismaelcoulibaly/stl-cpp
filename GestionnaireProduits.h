@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - GestionnaireProduits.h
 * Date: 9 mars 2018
-* Auteur: Ismaël Coulibaly et Simon Zhang
+* Auteur: Ismaël Coulibaly 
 *******************************************/
 #ifndef GESTIONNAIREPRODUIT_H
 #define GESTIONNAIREPRODUIT_H

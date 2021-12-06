@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - GestionnaireProduits.cpp
 * Date: 9 mars 2018
-* Auteur: Ismaël Coulibaly & Simon Zhang
+* Auteur: Ismaël Coulibaly
 *******************************************/
 
 
