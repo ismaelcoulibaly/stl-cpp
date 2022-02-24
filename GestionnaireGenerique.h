@@ -18,6 +18,11 @@ public:
   C obtenirConteneur(){
     return conteneur_;
 }; 
+
+  int obtenirConteneurSize() {
+      return conteneur_.size();
+  }
+
 void ajouter(T*ptrT){
     A a(conteneur_);
     conteneur_=a(ptrT);

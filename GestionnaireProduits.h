@@ -16,6 +16,9 @@
 #include "Usager.h"
 #include "Produit.h"
 #include "GestionnaireGenerique.h"
+#include "GestionnaireProduits.h"
+#include "Foncteur.h"
+#include "Client.h"
 #include <map>
 
 

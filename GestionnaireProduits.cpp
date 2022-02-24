@@ -76,11 +76,11 @@
 		return produitPlusCher->second;
 	else
 		return nullptr;
-		}
+		
 	 }
 
 
-vector<pair<int, Produit*>> GestionnaireProduits::obtenirProduitsEntre(double borneInf, double borneSup) {
+	 vector<pair<int, Produit*>> GestionnaireProduits::obtenirProduitsEntre(double borneInf, double borneSup) {}
 	
 
 

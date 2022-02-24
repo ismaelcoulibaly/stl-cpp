@@ -5,6 +5,8 @@
 #include <vector>
 #include "Usager.h"
 #include "Produit.h"
+#include "GestionnaireProduits.h"
+#include "Client.h"
 
 using namespace std;
 
@@ -29,11 +31,12 @@ class Client : public Usager
 	// TODO : Impl�menter cette m�thodes : 
 	Produit* trouverProduitPlusCher() const;
   
-  protected:
-    GestionnaireProduit* panier_;
+ 
+    
 
   private:
     unsigned int codeClient_;
+    GestionnaireProduit* panier_;
 };
 
 #endif

@@ -1,5 +1,9 @@
 #include "Client.h"
 #include "ProduitAuxEncheres.h"
+#include "Usager.h"
+#include "Produit.h"
+#include "GestionnaireProduits.h"
+
 #include <iostream>
 
 Client::Client(unsigned int codeClient)
@@ -41,14 +45,15 @@ void Client::afficherPanier() const
 	// TODO : � modifier
     cout << "PANIER (de " << obtenirNom() << ")"
          << "\n";
-    panier_.->afficherPanier();
+    
+    panier_->afficherPanier();
 }
 
 void Client::afficher() const
 {
 	// TODO : � modifier
     Usager::afficher();
-    cout << "\t\tcode client:\t" << codeClient_ << endl << "\t\tpanier:\t\t" << panier_->obtenirConteneur().size() << " element" << endl;
+    cout << "\t\tcode client:\t" << codeClient_ << endl << "\t\tpanier:\t\t" << panier_->obtenirConteneurSize() << " element" << endl;
 }
 
 void Client::modifierCodeClient(unsigned int codeClient)
@@ -59,7 +64,7 @@ void Client::modifierCodeClient(unsigned int codeClient)
 void Client::enleverProduit(Produit *produit)
 {
 	// TODO : � modifier
-   oanier_->supprimer(produit);
+    panier_->suppime(produit);
 }
 
 void Client::ajouterProduit(Produit *produit)

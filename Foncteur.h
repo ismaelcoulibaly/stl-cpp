@@ -15,7 +15,7 @@ class FoncteurEgal {
 	public:
 	FoncteurEgal(T* t) : t_(t) {};
 	 bool operator()(pair<int,T*>){ return pair.second == t_;}
-	}
+	
 	private:
 	T* t_;
 };
@@ -89,20 +89,19 @@ Attributs :
 - &multimap_;
 M�thodes :
 - operator(); Ajoute dans la multimap la pair pass� par param�tre et retourne la multimap_;
-*/
+*/;
 
-class AjouterProduit
-{
-	public:
-		AjouterProduit(multimap<int, Produit*> & multimap) :multimap_(multimap) {};
-		multimap<int, Produit*> operator()(Produit* ptrProduit) 
-		{
-			multimap_.insert(pair<int, Produit*>(ptrProduit->obtenirReference(),ptrProduit));
-			return multimap_;
-		};
+class AjouterProduit {
+public:
+	AjouterProduit(multimap<int, Produit*>& multimap) :multimap_(multimap) {};
+	multimap<int, Produit*> operator()(Produit* ptrProduit)
+	{
+		multimap_.insert(pair<int, Produit*>(ptrProduit->obtenirReference(), ptrProduit));
+		return multimap_;
+	};
 
-	private:
-		multimap<int, Produit*>& multimap_;
+private:
+	multimap<int, Produit*>& multimap_;
 
 };
 
