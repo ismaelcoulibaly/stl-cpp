@@ -1,4 +1,6 @@
 #include "Gestionnaire.h"
+#include "Usager.h"
+#include "ClientPremium.h"
 
 vector<Usager *> Gestionnaire::obtenirUsagers() const
 {

@@ -5,7 +5,7 @@
 #include <vector>
 #include "Usager.h"
 #include "Produit.h"
-#include "GestionnaireProduit.h"
+#include "GestionnaireProduits.h"
 using namespace std;
 
 class Fournisseur : public Usager
@@ -15,7 +15,7 @@ class Fournisseur : public Usager
     Fournisseur(const string &nom, const string &prenom, int identifiant, const string &codePostal);
 
 	// TODO : Modifier l'impl�mentation de ses m�thodes : ----
-    GestionnaireProduits* obtenirCatalogue() const;
+    GestionnaireProduit* obtenirCatalogue() const;
     void afficherCatalogue() const;
     virtual void afficher() const;
     virtual void reinitialiser();

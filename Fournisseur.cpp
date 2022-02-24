@@ -14,7 +14,7 @@ Fournisseur::Fournisseur(const string &nom, const string &prenom, int identifian
     catalogue_=new GestionnaireProduit;
 }
 
-GestionnaireProduits* Fournisseur::obtenirCatalogue() const
+GestionnaireProduit* Fournisseur::obtenirCatalogue() const
 {
 	// TODO : � modifier
     return catalogue_;
@@ -34,7 +34,7 @@ void Fournisseur::afficher() const
 {
 	// TODO : � modifier
     Usager::afficher();
-    cout << "\t\tcatalogue:\t" << catalogue_->obtenirConteneur().size() << " elements" << endl;
+    cout << "\t\tcatalogue:\t" << catalogue_->obtenirConteneurSize() << " elements" << endl;
 }
 
 void Fournisseur::reinitialiser()

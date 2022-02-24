@@ -6,6 +6,7 @@
 
 
 #include "GestionnaireGenerique.h"
+#include "Foncteur.h"
 #include "ProduitAuxEncheres.h"
 #include "GestionnaireProduits.h"
 #include <functional>

@@ -1,4 +1,7 @@
 #include "ClientPremium.h"
+#include "GestionnaireGenerique.h"
+#include "GestionnaireProduits.h"
+#include "Client.h"
 #include <iostream>
 
 ClientPremium::ClientPremium(unsigned int joursRestants)
